@@ -8,3 +8,8 @@ function conus (height, radius) {
   console.log("The valume of the conus " + v)
 }
 conus(2, 10);
+
+function getLength(a) {
+  return a.length;
+}
+console.log(getLength("My name is Nagima"));
