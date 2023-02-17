@@ -50,6 +50,32 @@ console.log(getNum(5, 6, 8, 9, 1));
 for (let i = 0; i <= 33; i +=3)
 console.log(i);
 
+// task9
+
+// task 10
 for( let a =0; a <= 10; a ++){
     console.log("Square of " + a + " equal to " + a*a)
   }
+
+//   // task 11
+// function sumTo() {
+//   let sum =0;
+//   for (let i= 0; i <= 25; i ++) {
+//     sum += i;
+//   }
+// }
+// console.log(sumTo(25));
+
+// function evenNumber(n) {
+//   if (n % 2 === 0);
+// }
+// for( let n =0; n <= 25; n +=2)
+// console.log (evenNumber(n));
+  
+
+let a = ["Nagima", "Nadira", "Venera"];
+console.log(a);
+a.unshift( "Nazima", "Piter");
+console.log (a);
+a.push(" Tilek", "Kayrat",);
+console.log(a);
