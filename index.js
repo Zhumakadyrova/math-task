@@ -27,6 +27,16 @@ num(9);
 num(10);
 num(15);
 // task 5
+function getDegree(a) {
+  console.log( a ** 2)
+}
+getDegree(2);
+getDegree(10);
+
+function getDegree2(a) {
+  return a ** 2;
+}
+console.log(getDegree2(5));
 
 // task 6
 function getNum(a, b, c, d, e){
