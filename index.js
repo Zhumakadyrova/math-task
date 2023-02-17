@@ -37,9 +37,19 @@ function getDegree2(a) {
   return a ** 2;
 }
 console.log(getDegree2(5));
-
 // task 6
+
+// task 7
 function getNum(a, b, c, d, e){
   return "This is " + (a + b + c+ d+ e);
 }
 console.log(getNum(5, 6, 8, 9, 1));
+
+// task 8
+
+for (let i = 0; i <= 33; i +=3)
+console.log(i);
+
+for( let a =0; a <= 10; a ++){
+    console.log("Square of " + a + " equal to " + a*a)
+  }
