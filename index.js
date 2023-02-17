@@ -72,10 +72,22 @@ for( let a =0; a <= 10; a ++){
 // for( let n =0; n <= 25; n +=2)
 // console.log (evenNumber(n));
   
-
+// task 14
 let a = ["Nagima", "Nadira", "Venera"];
 console.log(a);
 a.unshift( "Nazima", "Piter");
 console.log (a);
 a.push(" Tilek", "Kayrat",);
 console.log(a);
+
+// task 15
+// let b =[5, 4, 6, 7, 8, 10, 11];
+// let c =[]; {
+// }
+
+// task 18
+
+let row =["one", "two", "three", "four"];
+console.log(row);
+row.reverse();
+console.log(row);
