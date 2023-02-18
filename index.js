@@ -91,3 +91,13 @@ let row =["one", "two", "three", "four"];
 console.log(row);
 row.reverse();
 console.log(row);
+
+// 17. Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
+let elements = ["I", "like", "to", "eat"]; {
+  console.log (elements.join(" "));
+}
+
+
+let elements2 = ["I", "wanna", "be", "happy"];{
+  console.log (elements2.join(" "))
+}
