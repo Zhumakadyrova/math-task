@@ -109,5 +109,10 @@ let names = ["Nagima", "Nazima", "Azima", "Ayana", "Nuraiym"] ;
     console.log("Hello " + names[i]);
   }
 
+  let numbers2 = [ 1, 2, 3, 4];
+  for (let i = 0; i < numbers2.length; i ++) {
+    console.log(numbers2[i] **2);
+  }
+
 
 
