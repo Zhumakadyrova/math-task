@@ -113,6 +113,22 @@ let names = ["Nagima", "Nazima", "Azima", "Ayana", "Nuraiym"] ;
   for (let i = 0; i < numbers2.length; i ++) {
     console.log(numbers2[i] **2);
   }
+  // 21. Создайте массив строк и проверьте есть ли такой элемент в массиве. // ["cat", "dog", "snake"] 
+
+  let animals = ["cat", "dog", "snake", "lion"];
+  for(let i = 0; i < animals.length; i ++) {
+    function animals2(a) {
+      if (a === animals [i]) {
+        console.log("true");
+      }
+      else {
+        console.log("false")
+      }
+    }
+  }  
+  animals2("cat");
+  animals2("dog");
+
 
 
 
