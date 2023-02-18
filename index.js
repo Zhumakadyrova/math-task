@@ -112,12 +112,14 @@ for ( let a =0; a <= 25; a ++){
     console.log(a)
   }
 }
-// task 14
+// 
+// 14. Создайте массив из строк и добавьте в начало массива 2 новых элемента, а в конец 3.
+
 let a = ["Nagima", "Nadira", "Venera"];
 console.log(a);
 a.unshift( "Nazima", "Piter");
 console.log (a);
-a.push(" Tilek", "Kayrat",);
+a.push(" Tilek", "Kayrat", "Shailobek");
 console.log(a);
 
 // task 15
