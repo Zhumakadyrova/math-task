@@ -56,7 +56,9 @@ console.log(getDegree2(5));
 // 6. Напишите функцию, которая возвращает корень числа.
 // functionName(num) // Корень этого числа равен
 
-
+Math.sqrt(num) 
+console.log(Math.sqrt(4));
+console.log(Math.sqrt(125));
 
 
 
