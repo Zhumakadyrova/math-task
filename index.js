@@ -101,3 +101,13 @@ console.log(row);
 row.reverse();
 console.log(row);
 
+// Создайте массив из имен (минимум 3) и выведите каждое имя.
+// // Hello Erjan Hello Ermek ... 
+
+let names = ["Nagima", "Nazima", "Azima", "Ayana", "Nuraiym"] ; 
+  for (let i = 0; i < names.length; i ++) {
+    console.log("Hello " + names[i]);
+  }
+
+
+
