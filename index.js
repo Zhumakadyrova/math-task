@@ -56,6 +56,12 @@ console.log(getDegree2(5));
 // 6. Напишите функцию, которая возвращает корень числа.
 // functionName(num) // Корень этого числа равен
 
+
+
+
+
+
+
 // 7. Напишите функцию, которая возвращает периметр пятиугольника.
 // functionName(a, b, c, d, e) // Периметр - ...
 
@@ -73,11 +79,15 @@ console.log(i);
 
 // 9. Напишите цикл, вычисляющий факториал числа 8. (8!)
 // ...
+function factorial(n) {
+  return (n != 1) ? n * factorial(n - 1) : 1;
+}
 
-
-// 9. Напишите цикл, вычисляющий факториал числа 8. (8!)
-// ...
-
+console.log( factorial(8) );
+function factorial(a) {
+  return(a!=1)? a* factorial(a-1) :1;
+}
+console.log(factorial(3));
 // 10. Напишите цикл, который выводит квадраты чисел от 1 до 10.
 // // 1 4 9 ...
 for( let a =0; a <= 10; a ++){
@@ -122,10 +132,17 @@ console.log (a);
 a.push(" Tilek", "Kayrat", "Shailobek");
 console.log(a);
 
-// task 15
+// // 15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
+
 // let b =[5, 4, 6, 7, 8, 10, 11];
-// let c =[]; {
+// let result = 0; 
+// for (c = 0; c < b.length; c ++) {
+//   result += c; {
+//   if(c % 2 ===0);
 // }
+// console.log( result);
+
+
 
 // 17. Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
 let elements = ["I", "like", "to", "eat"]; {
@@ -151,7 +168,9 @@ let names = ["Nagima", "Nazima", "Azima", "Ayana", "Nuraiym"] ;
     console.log("Hello " + names[i]);
   }
 
-  let numbers2 = [ 1, 2, 3, 4];
+//   20. Создайте массив из чисел и выведите квадраты этих чисел. [2, 3, 4, 5]
+// // 4 9 16 25
+let numbers2 = [ 1, 2, 3, 4];
   for (let i = 0; i < numbers2.length; i ++) {
     console.log(numbers2[i] **2);
   }
@@ -170,7 +189,3 @@ let names = ["Nagima", "Nazima", "Azima", "Ayana", "Nuraiym"] ;
   }  
   animals2(["cat"]);
   animals2(["dog"]);
-
-
-
-
