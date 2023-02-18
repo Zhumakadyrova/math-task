@@ -136,14 +136,22 @@ console.log(a);
 
 // // 15. Создайте массив чисел и вычислите сумму всех четных чисел в массиве.
 
-// let b =[5, 4, 6, 7, 8, 10, 11];
-// let result = 0; 
-// for (c = 0; c < b.length; c ++) {
-//   result += c; {
-//   if(c % 2 ===0);
-// }
-// console.log( result);
-
+let b =[5, 4, 6, 7, 8, 10, 11];
+let result = 0; 
+for( let a= 0; a < b.length; a++){
+  if(b [a] % 2 ===0) {
+    result += b [a];
+  }
+}
+console.log(result);
+let arr = [1,2,3,4,5,6,7,8,9,10] 
+let sum = 0;
+for (let i=0; i < arr.length; i++){
+  if (arr[i] % 2 == 0){
+      sum += arr[i];
+     }
+  }
+console.log(sum)       
 
 
 // 17. Создайте массив строк и объедините их в одну строку. // ["I", "like", "to", "eat!"]
