@@ -96,12 +96,22 @@ function sumTo(n) {
 }
 console.log(sumTo(25));
 
-// function evenNumber(n) {
-//   if (n % 2 === 0);
+// // 12. Напишите цикл, который печатает четные числа от 0 до 20.
+// // // 0 2 4
+
+// for ( let n =0; n <= 20; n ++) {
+//   if (a % 2 ===0) {
+//     console.log(n)
+//   }
 // }
-// for( let n =0; n <= 25; n +=2)
-// console.log (evenNumber(n));
-  
+
+// 13. Напишите цикл, который печатает нечетные числа от 1 до 15.
+// // 1 3 ...
+for ( let a =0; a <= 25; a ++){
+  if (a % 2 ===1) {
+    console.log(a)
+  }
+}
 // task 14
 let a = ["Nagima", "Nadira", "Venera"];
 console.log(a);
